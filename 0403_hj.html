@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="">
+    <title>XML</title>
+    <style>
+          #wrapper
+          {
+            width:1250px;
+            height:auto;
+            background-color: #77abd1;
+            padding:10px;
+            margin: 0px auto;
+          }
+
+        #header{
+          background-color: #ffffff;
+          border: solid gray 5px;
+          padding:20px;
+          margin:20px;
+        }
+
+
+        #left {
+          background-color: #ffffff;
+          border: solid gray 5px;
+          width: 15%;
+          float:left;
+          height: 250px;
+          padding:20px;
+          margin: 0 10px 20px 20px;
+          font-weight: bold;
+        }
+
+        #right {
+          background-color: #ffffff;
+          border: solid gray 5px;
+          width: 15%;
+          float:right;
+          height: 250px;
+          padding:20px;
+          margin: 0 20px 20px 0;
+          font-weight: bold;
+        }
+
+        #center{
+          background-color: #ffffff;
+          border: solid gray 5px;
+          width: 53%;
+          float: left;
+          height: 250px;
+          padding:20px;
+          overflow:auto;
+          margin: 0 auto 20px auto;
+          font-weight: bold;
+        }
+
+         #table {
+          background-color: #ffffff;
+          clear: both;
+          width:93.5%;
+          margin:20px;
+          border: solid gray 5px;
+          padding:20px;
+          font-weight: bold;
+         }
+
+         #footer{
+
+           background-color:#ffffff;
+           border: solid gray 5px;
+
+           padding: 20px;
+           margin:20px;
+           font-weight: bold;
+         }
+
+
+         table {
+       border-collapse: collapse;
+       width: 100%;
+       }
+
+       th, td {
+           text-align: left;
+           padding: 8px;
+       }
+
+       tr:nth-child(even){background-color: #f2f2f2}
+
+       th {
+           background-color: #5697ad;
+           color: white;
+       }
+     </style>
+
+
+
+      </head>
+
+<div id="wrapper">
+      <body>
+          <div id="header" onclick="colorHandler();">
+            <h1 style="font-size:37pt">
+               나는 할 수 있다
+             </h1>
+             <h2 style="color:#457891">
+               해야만 한다
+             </h2>
+           </div>
+<div>
+       <div id="left">
+        <ul>
+          <li> <a href="https://ko.wikipedia.org/wiki/%EC%A2%85%EC%86%8D%ED%98%95_%EC%8B%9C%ED%8A%B8" target="_blank">link1</a></li>
+          <li> <a href="https://ko.wikipedia.org/wiki/%EC%A2%85%EC%86%8D%ED%98%95_%EC%8B%9C%ED%8A%B8" target="_blank">link2</a></li>
+          <li> <a href="https://ko.wikipedia.org/wiki/%EC%A2%85%EC%86%8D%ED%98%95_%EC%8B%9C%ED%8A%B8" target="_blank">link3</a></li>
+          <li> <a href="https://ko.wikipedia.org/wiki/%EC%A2%85%EC%86%8D%ED%98%95_%EC%8B%9C%ED%8A%B8" target="_blank">link4</a></li>
+        </ul>
+       </div>
+
+       <div id="center">
+        <h2><u>XML</u></h2>
+          <p>21C의 인터넷 시대의 화두는 통합과 협업입니다. 이것은 인터넷으로 기존 시스템의 데이터와 문서,
+            Application을 통합할 수 있기 때문에 가능합니다.</p>
+
+            <p>XML은 기존의 데이터를 보다 쉽게 표현, 교환, 저장할 수 있어서 무역, 금융, 자동차 산업, 전자상거래 등
+            다양한 산업 분야에서 표준으로 제정되어 사용되고 있습니다. 특히 XML은 가독성, 호환성, 연동성, 상호 운영성,
+            이식성의 속성을 가진 인터넷 언어이며, 문서이며, 작은 저장소입니다. XML기술은 이기종 시스템 간에
+            통합과 협업을 쉽게 구현하게 합니다.
+          </p>
+        </div>
+
+        <div id="right">
+          <ul>
+            <li> <a href="https://ko.wikipedia.org/wiki/%EC%A2%85%EC%86%8D%ED%98%95_%EC%8B%9C%ED%8A%B8">link1</a></li>
+            <li> <a href="https://ko.wikipedia.org/wiki/%EC%A2%85%EC%86%8D%ED%98%95_%EC%8B%9C%ED%8A%B8">link2</a></li>
+            <li> <a href="https://ko.wikipedia.org/wiki/%EC%A2%85%EC%86%8D%ED%98%95_%EC%8B%9C%ED%8A%B8">link3</a></li>
+            <li> <a href="https://ko.wikipedia.org/wiki/%EC%A2%85%EC%86%8D%ED%98%95_%EC%8B%9C%ED%8A%B8">link4</a></li>
+          </ul>
+        </div>
+</div>
+
+     <div id="table">
+       <h2> 테이블~</h2>
+       <table id=table1>
+              <tr>
+                 <th>이름</th>
+                 <th>죄명</th>
+                 <th>형량</th>
+              </tr>
+
+              <tr>
+                 <td>김사장</td>
+                 <td>절도</td>
+                 <td>집행유예</td>
+              </tr>
+              <tr>
+                 <td>이대표</td>
+                 <td>배임</td>
+                 <td>20년 형</td>
+              </tr>
+              <tr>
+                   <td>오대리</td>
+                   <td>폭행</td>
+                   <td>1년 형</td>
+                </tr>
+              <tr>
+                   <td>이인턴</td>
+                   <td>RDB사용</td>
+                   <td>총살</td>
+                </tr>
+
+        </table>
+
+         이름 : <input type="text" size="10" name="txtHome" />
+         죄명 : <input type="text" size="10" name="txtAway" />
+         형량 : <input tyoe="text" size="10" name="txtAway2"/>
+
+         <input type="button" value="줄 추가" onclick = "
+           Add();
+         ">
+         <input type="button" value="마지막 줄 삭제" onclick = "
+          Delete();
+         ">
+     </div>
+
+         <div id="footer"  onclick="colorHandler();">
+           <p>신나는 코딩교실</p>
+         </div>
+
+    </div>
+    <script>
+         function colorHandler(){
+           var newColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+           document.getElementById("header").style.backgroundColor = newColor;
+           document.getElementById("footer").style.backgroundColor = newColor;
+         }
+
+        function Add() {
+          var mytable = document.getElementById('table1');
+          var row = mytable.insertRow(mytable.rows.length);
+          row.insertCell(0).innerHTML = document.all.txtHome.value;
+          row.insertCell(1).innerHTML = document.all.txtAway.value;
+          row.insertCell(2).innerHTML = document.all.txtAway2.value;}
+
+        function Delete() {
+          var mytable = document.getElementById('table1');
+          if (mytable.rows.length < 2) return;
+          mytable.deleteRow(mytable.rows.length-1);
+          }
+
+      </script>
+
+
+
+      }
+
+  </body>
+</html>
