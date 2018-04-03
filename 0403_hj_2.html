@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>세번째 과제 - 구구단</title>
+    <style>
+        td{
+          border : solid gray 1px;
+        }
+    </style>
+  </head>
+  <body>
+        col : <input type="text" size="10" name="col_1" />
+        row : <input type="text" size="10" name="row_1" />
+
+       <input type="button" value="생성" onclick = "
+         myFunction();
+       ">
+       <p id="total"></p>
+     <script>
+
+     function myFunction(){
+       var tom = document.all.col_1.value;
+       var bread = document.all.row_1.value;
+       var result = "";
+           result += "<table>";
+                for (var i = 1; i <= tom; i++){
+                  result += "<tr>";
+                    for (var j = 1; j <= bread; j++){
+                        result += "<td>"+i + " * " + j + " = " +(i * j );+ "</td>";}
+                  result += "</tr>";  }
+           result += "</table>";
+        document.getElementById("total").innerHTML = result;}
+
+     </script>
+
+  </body>
+</html>
